@@ -1,5 +1,5 @@
 # Hostel-Food-Waste-Management-System
-Food Waste Management System for Hostel Mess This project develops a Food Waste Management System for my own University's hostel mess, leveraging Machine Learning and Data Science. It is fully deployed and operational.
+Food Waste Management System made for my own University's hostel mess, leveraging Machine Learning and Data Science. It is fully deployed and operational.
 
 Please find the deployed webite here: https://fwms-frontend.vercel.app/
 
