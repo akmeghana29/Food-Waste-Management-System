@@ -4,9 +4,9 @@ Food Waste Management System made for my own University's hostel mess, leveragin
 ## Please find the deployed webite here: https://fwms-frontend.vercel.app/
 ## Or find the screenshots of the website attached at the bottom of this README file
 
-### Development Stages
+# Development Stages
 
-Stage 1: Data Collection
+### Stage 1: Data Collection
 Acquired authentic hostel data from wardens.
 Features: Date, total_strength, students_present, students_absent, Food_wasted_in_kg (obtained from mess manager with permission).
 Span: Last 5 years (COVID periods excluded); missing values reasonably imputed.
