@@ -2,7 +2,12 @@
 Food Waste Management System made for my own University's hostel mess, leveraging Machine Learning and Data Science. It is fully deployed and operational.
 
 ## Please find the deployed webite here: https://fwms-frontend.vercel.app/
-## Or find the screenshots of the website attached at the bottom of this README file
+
+## Screenshots
+
+<img src="./Screenshot 2026-02-19 203329.png" alt="Screenshot 1" width="800"/>
+
+<img src="./Screenshot 2026-02-19 203354.png" alt="Screenshot 2" width="800"/>
 
 # Development Stages
 
@@ -45,6 +50,4 @@ Database: MongoDB Atlas
 Live and accessible.
 
 
-<img src="./Screenshot 2026-02-19 203329.png" alt="Screenshot 1" width="800"/>
 
-<img src="./Screenshot 2026-02-19 203354.png" alt="Screenshot 2" width="800"/>
