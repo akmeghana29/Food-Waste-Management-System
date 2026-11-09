@@ -1,53 +1,16 @@
-# Hostel-Food-Waste-Management-System
-Food Waste Management System made for my own University's hostel mess, leveraging Machine Learning and Data Science. It is fully deployed and operational.
+# React + Vite
 
-## Please find the deployed webite here: https://fwms-frontend.vercel.app/
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Screenshots
+Currently, two official plugins are available:
 
-<img src="./Screenshot 2026-02-19 203329.png" alt="Screenshot 1" width="800"/>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<img src="./Screenshot 2026-02-19 203354.png" alt="Screenshot 2" width="800"/>
+## React Compiler
 
-# Development Stages
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Stage 1: Data Collection
-Acquired authentic hostel data from wardens.
-Features: Date, total_strength, students_present, students_absent, Food_wasted_in_kg (obtained from mess manager with permission).
-Span: Last 5 years (COVID periods excluded); missing values reasonably imputed.
+## Expanding the ESLint configuration
 
-### Stage 2: Data Cleaning and Feature Extraction
-
-Applied AI tools to academic calendars for features: is_holiday, is_event, is_vacation.
-Derived: week_number, month, day_of_week, is_weekend, prev_day_same_meal_consumed_kg, last_7_days_avg_consumed_kg, last_7_days_avg_wasted_kg.
-One-hot encoded meal types, resulting in 20 features (selectively pruned).
-
-### Stage 3: Exploratory Data Analysis (EDA)
-
-Examined distributions, waste patterns, and data integrity.
-Insights: Food waste by meal type, attendance vs. consumption, holiday effects, monthly trends, correlations.
-
-### Stage 4: Model Training
-
-Utilized Gradient Boosting Regressor.
-Performance:
-R² Score: 0.9946
-Mean Absolute Error: ±6.26 kg
-Overall Accuracy: 96.27%
-
-### Stage 5: Full-Stack Development
-
-Implemented with MERN stack and Flask microservice for ML inference.
-Enables kitchen staff to input daily data for real-time predictions on food preparation (kg per meal).
-
-Clean, intuitive frontend.
-
-### Stage 6: Deployment
-
-Frontend (React): Vercel
-Backend (Node/Express) + ML Service (Flask): Render
-Database: MongoDB Atlas
-Live and accessible.
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
